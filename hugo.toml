@@ -1,0 +1,28 @@
+baseURL = 'https://okulusdev.github.io'
+languageCode = 'ru'
+title = 'Okulus Dev'
+paginate = 100 #frontpage pagination
+theme = 'monochrome'
+
+[params]
+	navbar_title = "Okulus Dev" # default: site's `title`
+	footer = "Copyright © 2023 by OkulusDev" # default: None
+	enable_toc = true # default: true
+	enable_collapsible_toc = true # default: false
+	enable_collapsible_changelogs = false # default: false
+	enable_math = true
+	enable_site_search = true # default: false
+	author = "Okulus Dev" # default: no author `meta` tag
+	color_scheme = "dark" # "light" or "dark"
+	style = "gruvbox"
+
+  	[params.list_layout]
+		enable_group_by_year = false # default: true
+		enable_show_date = true # default: true
+		enable_pagination = true # default: false
+
+[param]
+	[param.syntax_highlight]
+	  lib = "builtin" # "builtin" | "prism.js" (default: "builtin")
+	    [param.syntax_highlight.builtin]
+	    enable_code_copy = true # default: true

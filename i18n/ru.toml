@@ -1,0 +1,7 @@
+"tags" = "Теги"
+"recent_posts" = "Последние статьи"
+"toc" = "Содержание"
+"no_page_under_resouces" = 'There is no page under {{ .resources_path }}. You need to specify "{{ .resources_name }}" correctly and check the existence of posts under this folder.'
+"resources_not_found" = 'Resouces not found. You need to specify "{{ .resources_name }}" correctly.'
+"search" = "Искать посты"
+"changelogs" = "Чейнджлог"
