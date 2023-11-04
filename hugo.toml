@@ -2,6 +2,7 @@ baseURL = 'https://okulusdev.github.io'
 languageCode = 'ru'
 title = 'Okulus Dev'
 languageName = 'ru'
+defaultContentLanguage = "ru"
 paginate = 100 #frontpage pagination
 theme = 'monochrome'
 enableGitInfo = true
