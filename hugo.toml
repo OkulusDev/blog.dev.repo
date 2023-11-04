@@ -5,6 +5,22 @@ paginate = 100 #frontpage pagination
 theme = 'monochrome'
 enableGitInfo = true
 
+[[navbar]]
+  identifier = "categories"
+  name = "Категории"
+  url = "/categories/"
+  weight = 1
+[[navbar]]
+  identifier = "tags"
+  name = "Теги"
+  url = "/tags/"
+  weight = 2
+[[navbar]]
+  identifier = "posts"
+  name = "Статьи"
+  url = "/post/"
+  weight = 3
+
 [taxonomies]
 	category = "categories"
 	tag = "tags"
@@ -41,19 +57,3 @@ enableGitInfo = true
 		enable_group_by_year = false # default: true
 		enable_show_date = true # default: true
 		enable_pagination = true # default: false
-
-[[navbar]]
-  identifier = "categories"
-  name = "Категории"
-  url = "/categories/"
-  weight = 1
-[[navbar]]
-  identifier = "tags"
-  name = "Теги"
-  url = "/tags/"
-  weight = 2
-[[navbar]]
-  identifier = "posts"
-  name = "Статьи"
-  url = "/post/"
-  weight = 3
