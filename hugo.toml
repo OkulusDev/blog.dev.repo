@@ -74,3 +74,24 @@ enableGitInfo = true
     pageRef = '/categories'
     weight = 30
 
+[[menu.navbar]]
+identifier = "tags"
+name = "tags"
+title = "Теги"
+url = "/tags/"
+weight = 100
+
+[[menu.navbar]]
+identifier = "categories"
+name = "categories"
+title = "Категории"
+url = "/series/"
+weight = -100
+
+[[menu.navbar]]
+identifier = "posts"
+name = "posts"
+title = "Статьи"
+url = "/post/"
+weight = 80
+
