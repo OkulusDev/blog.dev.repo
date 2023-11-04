@@ -76,21 +76,21 @@ enableGitInfo = true
 
 [[menu.navbar]]
 identifier = "tags"
-name = "tags"
+name = "Теги"
 title = "Теги"
 url = "/tags/"
 weight = 100
 
 [[menu.navbar]]
 identifier = "categories"
-name = "categories"
+name = "Категории"
 title = "Категории"
 url = "/series/"
 weight = -100
 
 [[menu.navbar]]
 identifier = "posts"
-name = "posts"
+name = "Статьи"
 title = "Статьи"
 url = "/post/"
 weight = 80
